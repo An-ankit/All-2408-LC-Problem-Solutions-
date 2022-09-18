@@ -1,0 +1,10 @@
+// Problem Link- https://leetcode.com/problems/sqrtx/
+
+class Solution {
+public:
+    int mySqrt(int x) {
+        int k=sqrt(x);
+        return k;
+        
+    }
+};
