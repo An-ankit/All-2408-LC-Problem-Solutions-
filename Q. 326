@@ -1,0 +1,15 @@
+// Problem Link- https://leetcode.com/problems/power-of-three/
+
+class Solution {
+public:
+    bool isPowerOfThree(int n) {
+        if(n<0)return false;
+        if(n==1)return true;
+        for(int i=1;i<=1290;i++){
+            long long k=pow(3,i);
+            if(n==k)return true;
+            if(k>n)return false;
+        }
+        return false;
+    }
+};
