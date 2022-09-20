@@ -1,0 +1,12 @@
+Problem Link- https://leetcode.com/problems/power-of-two/
+
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        if(n<=0)return false;
+        int k=pow(2,30);
+        if(k%n==0)return true;
+        return false;
+        
+    }
+};
